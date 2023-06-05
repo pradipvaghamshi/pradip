@@ -1,0 +1,14 @@
+//data copy transfar a to b array
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char a[20],b[20];
+clrscr();
+printf("enter your data :");
+gets(a);
+printf("%s",strcpy(b,a));
+
+getch();
+}

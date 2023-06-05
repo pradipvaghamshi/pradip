@@ -1,0 +1,14 @@
+//data in upper string
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char a[20];
+clrscr();
+printf("enter your data :");
+gets(a);
+printf("your data in upper %s",strupr(a));
+
+getch();
+}

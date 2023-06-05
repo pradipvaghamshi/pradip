@@ -1,0 +1,32 @@
+//inch and feet
+#include<stdio.h>
+#include<conio.h>
+struct distence
+{
+ int feet;
+ float inch;
+};
+void main()
+{
+ struct distence p1,p2,result;
+ clrscr();
+ //for first one
+ printf("your first distence:");
+  printf("\nEnter your feet distence:");
+  scanf("%d",&p1.feet);
+  printf("\nEnter your inch distence:");
+  scanf("%f",&p1.inch);
+  // for second one
+  printf("your second distence:");
+  printf("\nEnter your feet distence:");
+  scanf("%d",&p2.feet);
+  printf("\nEnter your inch distence:");
+  scanf("%f",&p2.inch);
+
+  result.feet=p1.feet+p2.feet;
+  result.inch=p1.inch+p2.inch;
+
+   printf("your total feet distence is= %d feet",result.feet);
+   printf("\nyour total inch distence is= %f inch	",result.inch);
+ getch();
+}

@@ -1,0 +1,28 @@
+//string spece delet in int and char
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char a[20];
+int i,j,l;
+clrscr();
+printf("enter your data :");
+gets(a);
+l=strlen(a);
+for(i=0;i<l;i++)
+{
+	if(a[i]==' ')
+	{
+		for(j=i;j<l;j++)
+		{
+			a[j]=a[j+1];
+		}
+
+	}
+
+}
+l--;
+puts(a);
+getch();
+}
